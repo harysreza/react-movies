@@ -21,7 +21,7 @@ const Trending = () => {
 
   return (
     <div>
-      <span className="pageTitle">Trending</span>
+      <span className="pageTitle">Home</span>
       <div className="trending">
         {content && content.map((c) => <SingleContent key={c.id} id={c.id} poster={c.poster_path} title={c.title || c.name} date={c.first_air_date || c.release_date} media_type={c.media_type} vote_average={c.vote_average} />)}
       </div>
