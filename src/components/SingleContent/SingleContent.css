@@ -4,16 +4,10 @@
   width: 200px;
   padding: 5px;
   margin: 5px 0;
-  background: #282c34;
   border-radius: 10px;
   position: relative;
   font-family: "Montserrat", sans-serif;
   cursor: pointer;
-}
-
-.media:hover {
-  background: white;
-  color: black;
 }
 
 @media (max-width: 550px) {
@@ -26,15 +20,24 @@
   border-radius: 10px;
 }
 
+.poster:hover {
+  transform: scale(1.02);
+}
+
 .title {
   width: 100%;
-  text-align: center;
+  text-align: start;
   font-size: 17px;
   padding: 20px 0;
 }
 
+.title:hover {
+  color: #b30000;
+}
+
 .subtitle {
-  text-align: center;
+  text-align: start;
   padding: 0 2px;
   padding-bottom: 10px;
+  cursor: auto;
 }
