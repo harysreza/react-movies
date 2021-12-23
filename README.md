@@ -1,5 +1,7 @@
 ## React Movies
 
+<img src="public/reactmovies.PNG" >
+
 ## Visit
 
 This project was uploaded [here](https://hr-react-movies.netlify.app)
