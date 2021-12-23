@@ -11,4 +11,4 @@ This project was uploaded [here](https://hr-react-movies.netlify.app)
 
 ## API
 
-Im using [themoviedb](themoviedb.org) API for this project
+Im using [themoviedb](https://www.themoviedb.org/) API for this project
